@@ -5,6 +5,11 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --color-brand: #F32735;
+  --color-onBrand: #ffffff;
+  --color-danger: #D92D20;
+  --color-border: #D0D5DD;
+  --font-sans: Inter;
 }
 
 @media (prefers-color-scheme: dark) {
