@@ -4,9 +4,9 @@ import preset from "aleta-ui/tailwind-preset";
 const config: Config = {
   presets: [preset],
   content: [
-    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./node_modules/aleta-ui/dist/**/*.{js,mjs}"
   ],
   theme: {
     extend: {
